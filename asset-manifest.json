@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rew-quotes/static/css/main.5af86620.css",
-    "main.js": "/rew-quotes/static/js/main.57eb9298.js",
+    "main.js": "/rew-quotes/static/js/main.d201ade6.js",
     "static/js/453.4750d9c2.chunk.js": "/rew-quotes/static/js/453.4750d9c2.chunk.js",
     "index.html": "/rew-quotes/index.html",
     "main.5af86620.css.map": "/rew-quotes/static/css/main.5af86620.css.map",
-    "main.57eb9298.js.map": "/rew-quotes/static/js/main.57eb9298.js.map",
+    "main.d201ade6.js.map": "/rew-quotes/static/js/main.d201ade6.js.map",
     "453.4750d9c2.chunk.js.map": "/rew-quotes/static/js/453.4750d9c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5af86620.css",
-    "static/js/main.57eb9298.js"
+    "static/js/main.d201ade6.js"
   ]
 }
