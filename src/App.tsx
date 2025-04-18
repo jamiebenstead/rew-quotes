@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import { quotes } from "./quotes";
 
 function App() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const getNextQuote = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % quotes.length);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="outer-container">
+      <header className="title-container">
+        <h1 className="title">
+          Andrew, CEO of GoGo Empires
+          <br />
+          <span className="subtitle">Quote Generator</span>
+        </h1>
       </header>
+
+      <main className="app-container">
+        <div className="quote-card">
+          <h2 className="quote">{quotes[currentIndex]}</h2>
+          <button className="refresh-button" onClick={getNextQuote}>
+            Refresh
+          </button>
+        </div>
+      </main>
     </div>
   );
 }

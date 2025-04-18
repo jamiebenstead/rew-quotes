@@ -1,38 +1,82 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.outer-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 3rem 0;
+  background: transparent;
   text-align: center;
+  z-index: 10;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 2rem;
+  margin: 0;
+  color: #f1c40f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subtitle {
+  font-size: 1.6rem;
+  color: #ecf0f1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Push main content below the fixed title and center it */
+.app-container {
+  flex: 1;
+  margin-top: 6.5rem; /* Leave space for the title */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.quote-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 600px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.quote {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.refresh-button {
+  background-color: #f1c40f;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-button:hover {
+  background-color: #d4ac0d;
 }
