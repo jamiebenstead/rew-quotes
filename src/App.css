@@ -34,6 +34,7 @@ body {
 .subtitle {
   font-size: 1.6rem;
   color: #ecf0f1;
+  margin-top: 2rem;
 }
 
 /* Push main content below the fixed title and center it */
