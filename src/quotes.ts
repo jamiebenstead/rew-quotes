@@ -33,4 +33,6 @@ export const quotes = [
   "Listen! Listen! Listen!",
   "You work for me",
   "I'm in charge",
+  "You work for me",
+  "Kunts",
 ];
