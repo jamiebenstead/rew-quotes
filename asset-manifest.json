@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rew-quotes/static/css/main.a24d46b0.css",
-    "main.js": "/rew-quotes/static/js/main.53996f83.js",
-    "static/js/453.4750d9c2.chunk.js": "/rew-quotes/static/js/453.4750d9c2.chunk.js",
-    "index.html": "/rew-quotes/index.html",
-    "main.a24d46b0.css.map": "/rew-quotes/static/css/main.a24d46b0.css.map",
-    "main.53996f83.js.map": "/rew-quotes/static/js/main.53996f83.js.map",
-    "453.4750d9c2.chunk.js.map": "/rew-quotes/static/js/453.4750d9c2.chunk.js.map"
+    "main.css": "/www.rewquotes.co.uk/static/css/main.a24d46b0.css",
+    "main.js": "/www.rewquotes.co.uk/static/js/main.d150ae08.js",
+    "static/js/453.4750d9c2.chunk.js": "/www.rewquotes.co.uk/static/js/453.4750d9c2.chunk.js",
+    "index.html": "/www.rewquotes.co.uk/index.html",
+    "main.a24d46b0.css.map": "/www.rewquotes.co.uk/static/css/main.a24d46b0.css.map",
+    "main.d150ae08.js.map": "/www.rewquotes.co.uk/static/js/main.d150ae08.js.map",
+    "453.4750d9c2.chunk.js.map": "/www.rewquotes.co.uk/static/js/453.4750d9c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a24d46b0.css",
-    "static/js/main.53996f83.js"
+    "static/js/main.d150ae08.js"
   ]
 }
