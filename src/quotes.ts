@@ -29,7 +29,7 @@ export const quotes = [
   "Don't wanna fuck with me",
   "I pay for everything in that house",
   "I own that house",
-  "I'm created something from nothing",
+  "I've created something from nothing",
   "Listen! Listen! Listen!",
   "You work for me",
   "I'm in charge",
