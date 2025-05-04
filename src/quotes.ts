@@ -25,6 +25,12 @@ export const quotes = [
   "I'm a proper hard kunt",
   "You think I'm a fuckin' joke?",
   "I'll show you what a joke is",
-  "I'm a ganster",
+  "I'm a gangster",
   "Don't wanna fuck with me",
+  "I pay for everything in that house",
+  "I own that house",
+  "I'm created something from nothing",
+  "Listen! Listen! Listen!",
+  "You work for me",
+  "I'm in charge",
 ];
