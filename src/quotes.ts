@@ -35,5 +35,5 @@ export const quotes = [
   "I'm in charge",
   "Kunts",
   "I'm tellin' you naa!",
-  "Fried food? You must be joking"
+  "Fried food? You must be joking",
 ];

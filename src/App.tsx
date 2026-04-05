@@ -3,9 +3,9 @@ import "./App.css";
 import { quotes } from "./quotes";
 
 function App() {
-  const [currentIndex, setCurrentIndex] = useState(() => 
-  Math.floor(Math.random() * quotes.length)
-);
+  const [currentIndex, setCurrentIndex] = useState(() =>
+    Math.floor(Math.random() * quotes.length),
+  );
 
   const getNextQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="outer-container">
       <header className="title-container">
-        <h1 className="title">Andrew, CEO of GoGo Empires</h1>
+        <h1 className="title">Andrew, CEO</h1>
         <h2 className="subtitle">Quote Generator</h2>
       </header>
 
