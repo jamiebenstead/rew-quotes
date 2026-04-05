@@ -33,6 +33,7 @@ export const quotes = [
   "Listen! Listen! Listen!",
   "You work for me",
   "I'm in charge",
-  "You work for me",
   "Kunts",
+  "I'm tellin' you naa!",
+  "Fried food? You must be joking"
 ];
