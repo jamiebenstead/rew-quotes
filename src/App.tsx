@@ -23,7 +23,7 @@ function App() {
         <div className="quote-card">
           <h2 className="quote">{quotes[currentIndex]}</h2>
           <button className="refresh-button" onClick={getNextQuote}>
-            Next Quote
+            Random Quote
           </button>
         </div>
       </main>
