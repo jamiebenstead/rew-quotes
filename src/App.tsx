@@ -3,7 +3,9 @@ import "./App.css";
 import { quotes } from "./quotes";
 
 function App() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(() => 
+  Math.floor(Math.random() * quotes.length)
+);
 
   const getNextQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
